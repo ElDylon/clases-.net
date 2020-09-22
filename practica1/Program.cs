@@ -86,19 +86,19 @@ namespace practica1
 
         static void Ejercicio7()
         {
-            string st1, st2, cm;
+            string st1;
             Console.WriteLine("Escriba 2 cadenas de caracteres separadas por un espacio");
             st1 = Console.ReadLine();
             string[] myArr = st1.Split(' ');
-            //esto es un comentario trolo
-            cm = new string(myArr);
-            if (st1 == cm)
+            char[] sep = myArr[1].ToCharArray();
+            Array.Reverse(sep);
+            if (myArr[0] == (new string (sep)))
             {
-                Console.WriteLine("La palabra es simétrica");
+                Console.WriteLine("La palabra es simetrica");
             }
             else
             {
-                Console.WriteLine("la palabra no es simétrica");
+                Console.WriteLine("la palabra no es simetrica, que sos down?");
             }
         }
     }
