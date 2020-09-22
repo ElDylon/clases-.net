@@ -90,7 +90,7 @@ namespace practica1
             Console.WriteLine("Escriba 2 cadenas de caracteres separadas por un espacio");
             st1 = Console.ReadLine();
             string[] myArr = st1.Split(' ');
-            
+            //esto es un comentario trolo
             cm = new string(myArr);
             if (st1 == cm)
             {
