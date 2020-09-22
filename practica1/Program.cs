@@ -100,6 +100,7 @@ namespace practica1
             {
                 Console.WriteLine("la palabra no es simetrica, que sos down?");
             }
+            //asfsaf
         }
     }
 }
